@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/css/ajax/ajax.css" />
+<script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/js/ajax/ajax.js"></script>
+<meta charset="UTF-8">
+<title>ajax 연습</title>
+</head>
+<body>
+	<div>
+		<p>빠른 글 등록</p>
+		<input type="text" placeholder="제목" name="title" id="title"/><br><br>
+		<input type="text" placeholder="작성자" name="writer" id="writer"/><br><br>
+		<textarea placeholder="내용을 입력하세요" name="content" id="content"></textarea><br>
+		<button onclick="enrollText();">작성 완료</button>
+	</div>
+	<hr>
+	
+	<div id="detailArea"></div><br>
+	
+	<div>
+		<table>
+			<tr id="boardMenu">
+				<th class="bno">번호</th>
+				<th class="title">제목</th>
+				<th class="writer">작성자</th>
+				<th class="date">날짜</th>
+				<th class="count">조회수</th>
+			</tr>
+		</table>
+		<table id="boardArea">
+		</table>
+	</div>
+	
+	<button id="getList" onclick="getList();">게시판 열기</button>
+	<button id="hideList" onclick="hideList();" style="display:none;">게시판 접기</button>
+	
+</body>
+</html>

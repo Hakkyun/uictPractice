@@ -1,0 +1,65 @@
+body{
+	background:#edf4fa;
+}
+
+#detailArea{
+	border: 1px solid black;
+	width: 300px;
+	height: 200px;
+	background: lightyellow;	
+}
+
+#boardMenu{
+	width : 300px;
+	background: lightgreen;	
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    height: 50px;
+    text-align: center !important;
+}
+
+tr {
+	height: 40px;
+	text-align: center;
+	border-bottom: 1px solid lightgray;
+}
+
+tr:nth-child(odd) {
+	background-color: #cbf2d5;
+}
+
+th:hover {
+	cursor: default;
+}
+
+tr:hover {
+	background-color: darkgray;
+	cursor: pointer;
+}
+
+.bno{
+	width : 10%;	
+}
+
+.title{
+	width : 40%;
+}
+
+.writer{
+	width : 20%;
+}
+
+.date{
+	width : 20%;
+}
+
+.count{
+	width : 10%;
+	text-align: right;
+}

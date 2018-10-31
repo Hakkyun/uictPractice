@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/css/map/hkMap.css" />
+<script type="text/javascript" src="/js/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/js/map/hkMap.js"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7eb2ed6f3285b1a0598201c340287e54&libraries=services"></script>
+<title>다음 지도 api 사용</title>
+</head>
+<body>
+
+	<h2>지도 연습</h2>
+
+	<div class="map_wrap">
+		<div id="map"></div>
+
+		<div id="menu_wrap" class="bg_white">
+			<div class="option">
+				<div>
+					<form onsubmit="searchPlaces(); return false;">
+						키워드 : <input type="text" value="갑을그레이트밸리" id="keyword" size="15">
+					</form>
+					<button id="searchPlace">검색하기</button>
+				</div>
+			</div>
+			<hr>
+			<ul id="placesList"></ul>
+			<div id="pagination"></div>
+		</div>
+	</div>
+	
+	<script>
+		
+	</script>
+	
+</body>
+</html>
