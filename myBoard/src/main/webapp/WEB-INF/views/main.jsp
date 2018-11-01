@@ -6,6 +6,17 @@
 <head>
 <meta charset="UTF-8">
 <title>메인화면</title>
+<style>
+	.forCenter{
+		width : 100%;
+		padding-left : 41vh;
+		/* text-align:center;
+		margin:0 auto; */
+	}
+	/* .bxSlider{
+		display:inline-block!important;
+	} */
+</style>
 </head>
 <body>
 	<div class="container">
@@ -25,8 +36,29 @@
 				<a href="/html/hkMap.html" class="btn btn-primary btn-lg btn-block"><b>지도 api</b></a>
 			</div>
 		</div>
+		<hr><br>
+		
+		<div class="forCenter">
+			<div class="bxSlider">
+				<div><img src="/images/coffee1.jpg" title="Funky roots" class="bxImage"></div>
+				<div><img src="/images/coffee2.jpg" title="The long and winding road" class="bxImage"></div>
+				<div><img src="/images/coffee3.jpg" title="Happy trees" class="bxImage"></div>
+			</div>
+		</div>
+		<hr>
 			
 	</div>
+
+	<script>
+		$(document).ready(function(){
+			$('.bxSlider').bxSlider({
+				mode : "fade",
+			    captions: false,
+			    pager: true,
+			    slideWidth: 600
+			});
+		});
+	</script>
 
 </body>
 </html>

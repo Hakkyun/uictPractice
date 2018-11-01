@@ -6,8 +6,11 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap/bootstrap.min.css">
-<script src="${pageContext.request.contextPath}/resources/js/bootstrap/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 <script src="${pageContext.request.contextPath}/resources/js/jquery/jquery-3.3.1.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/bootstrap/bootstrap.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 <style>
 	body{
 		background:#edf4fa;
@@ -40,7 +43,7 @@
 		});
 		
 		$('#enrollUser').click(function(){
-			alert("준비중입니다!");
+			swal("준비중입니다!");
 			/* location.href="${pageContext.request.contextPath}/enrollUser.do"; */
 		});
 	</script>

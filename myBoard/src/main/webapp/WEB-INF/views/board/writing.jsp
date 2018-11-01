@@ -24,7 +24,7 @@
 					작성일 : &nbsp; <fmt:formatDate value="${date}" type="both" pattern="yyyy-MM-dd"/><hr>&nbsp;&nbsp;
 					<textarea id="content" name="content" rows="10" cols="90" style="resize:none;"></textarea>
 		            <div class="text-center mt-2">
-        		       <button type="submit" class="btn btn-primary">등록</button>&nbsp;
+        		       <button type="submit" class="btn btn-primary" id="enroll">등록</button>&nbsp;
 		               <a class="btn btn-secondary" href="${pageContext.request.contextPath}/board.do">취소</a>
             		</div>				
  				</form>
@@ -32,6 +32,18 @@
 			<div class="col-md-2"></div>
 		</div>			
 	</div>
+
+	<script>
+		$('#enroll').click(function(){
+			if($('#title').val()==null||$('#title').val()==''||$('#title').val().length()==0){
+				swal("글 등록 실패!", "제목을 입력하세요", "error");
+				return false;
+			} else if($('#content').val()==''||$('#content').val().length()==0){
+				swal("글 등록 실패!", "내용을 입력하세요", "error");
+				return false;				
+			}
+		});
+	</script>
 
 </body>
 </html>
