@@ -19,7 +19,7 @@
 </head>
 <body>
 	<div>
-		<h2><a href="${pageContext.request.contextPath}/main.do">게시판 연습</a></h2>
+		<h2><a href="${pageContext.request.contextPath}/main.do">연습사이트</a></h2>
 	</div>
 	<div class="text-right">
 		<c:if test="${empty m}">

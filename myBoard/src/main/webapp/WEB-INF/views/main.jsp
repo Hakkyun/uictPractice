@@ -23,26 +23,29 @@
 		<c:import url="/WEB-INF/views/common/header.jsp"/>
 		
 		<div class="row">
-			<div class="col-md-3 text-center">
+			<div class="col-md text-center">
 				<a href="${pageContext.request.contextPath}/board.do" class="btn btn-success btn-lg btn-block"><b>게시판</b></a>
 			</div>
-			<div class="col-md-3 text-center">
+			<div class="col-md text-center">
 				<a href="${pageContext.request.contextPath}/calc.do" class="btn btn-danger btn-lg btn-block"><b>계산기</b></a>
 			</div>
-			<div class="col-md-3 text-center">
+			<div class="col-md text-center">
 				<a href="/html/ajax.html" class="btn btn-secondary btn-lg btn-block"><b>ajax 연습</b></a>
 			</div>
-			<div class="col-md-3 text-center">
+			<div class="col-md text-center">
 				<a href="/html/hkMap.html" class="btn btn-primary btn-lg btn-block"><b>지도 api</b></a>
 			</div>
+			<div class="col-md text-center">
+				<a href="/html/copyMain.html" class="btn btn-warning btn-lg btn-block"><b>회사사이트 카피</b></a>
+			</div>			
 		</div>
 		<hr><br>
 		
 		<div class="forCenter">
 			<div class="bxSlider">
-				<div><img src="/images/coffee1.jpg" title="Funky roots" class="bxImage"></div>
-				<div><img src="/images/coffee2.jpg" title="The long and winding road" class="bxImage"></div>
-				<div><img src="/images/coffee3.jpg" title="Happy trees" class="bxImage"></div>
+				<div><img src="/images/carousel/coffee1.jpg" title="Funky roots" class="bxImage"></div>
+				<div><img src="/images/carousel/coffee2.jpg" title="The long and winding road" class="bxImage"></div>
+				<div><img src="/images/carousel/coffee3.jpg" title="Happy trees" class="bxImage"></div>
 			</div>
 		</div>
 		<hr>
