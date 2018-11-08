@@ -10,12 +10,7 @@
 	.forCenter{
 		width : 100%;
 		padding-left : 41vh;
-		/* text-align:center;
-		margin:0 auto; */
 	}
-	/* .bxSlider{
-		display:inline-block!important;
-	} */
 </style>
 </head>
 <body>
@@ -38,6 +33,9 @@
 			<div class="col-md text-center">
 				<a href="/html/copyMain.html" class="btn btn-warning btn-lg btn-block"><b>회사사이트 카피</b></a>
 			</div>			
+			<div class="col-md text-center">
+				<a href="/html/canvas.html" class="btn btn-light btn-lg btn-block" style="border: 1px solid black;"><b>그림판</b></a>
+			</div>						
 		</div>
 		<hr><br>
 		

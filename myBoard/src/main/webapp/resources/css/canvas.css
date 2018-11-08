@@ -1,0 +1,27 @@
+#canvas:hover {
+	cursor: crosshair;
+}
+
+.selectColor{
+	cursor: pointer;
+	width:20px; 
+	height:20px; 
+	float:left; 
+	margin:0.5%;
+}
+
+#black{
+	background:black; 	
+}
+
+#red{
+	background:red; 	
+}
+
+#blue{
+	background:blue; 	
+}
+
+#green{
+	background:green;
+}
